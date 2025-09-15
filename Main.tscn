@@ -1,10 +1,45 @@
-[gd_scene load_steps=16 format=3 uid="uid://2y3ar4s86yra"]
+[gd_scene load_steps=51 format=3 uid="uid://2y3ar4s86yra"]
 
 [ext_resource type="Script" uid="uid://df7tint4n6hr5" path="res://Main.gd" id="1"]
 [ext_resource type="PackedScene" uid="uid://dp478jyugrn7o" path="res://Player.tscn" id="2"]
 [ext_resource type="PackedScene" uid="uid://ha0ar5s2c3m4" path="res://Mob.tscn" id="3"]
+[ext_resource type="PackedScene" uid="uid://cqhq71dgpqhcx" path="res://art/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/Bush_1_A_Color1.fbx" id="4_2gh4u"]
 [ext_resource type="Theme" uid="uid://cqquurjk1i7yw" path="res://ui_theme.tres" id="4_gnyca"]
+[ext_resource type="PackedScene" uid="uid://o0bt6b05dcb7" path="res://art/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/Bush_1_B_Color1.fbx" id="5_devvj"]
 [ext_resource type="Script" uid="uid://dljnx7kh6luh7" path="res://ScoreLabel.gd" id="6"]
+[ext_resource type="PackedScene" uid="uid://doobcjlwuy4na" path="res://art/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/Bush_3_C_Color1.fbx" id="6_3b0ty"]
+[ext_resource type="PackedScene" uid="uid://btsxvx4sxl8kg" path="res://art/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/Bush_2_F_Color1.fbx" id="7_bg4s2"]
+[ext_resource type="PackedScene" uid="uid://dhj5cfjhqua6" path="res://art/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/Grass_1_D_Color1.fbx" id="8_hhcpw"]
+[ext_resource type="PackedScene" uid="uid://b56mv0260j4vp" path="res://art/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/Grass_1_C_Color1.fbx" id="9_mxvw5"]
+[ext_resource type="PackedScene" uid="uid://m876totyeeib" path="res://art/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/Grass_1_D_Singlesided_Color1.fbx" id="10_xrxkg"]
+[ext_resource type="PackedScene" uid="uid://b5mqwni4x3b6c" path="res://art/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/Rock_1_A_Color1.fbx" id="13_sqvbp"]
+[ext_resource type="PackedScene" uid="uid://du5bcq7gaipka" path="res://art/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/Rock_1_B_Color1.fbx" id="14_hri7i"]
+[ext_resource type="PackedScene" uid="uid://cyfm3uo8wi478" path="res://art/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/Tree_1_B_Color1.fbx" id="15_w3rk5"]
+[ext_resource type="PackedScene" uid="uid://cq7jko7ugm1ne" path="res://art/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/Tree_2_C_Color1.fbx" id="16_5mvff"]
+[ext_resource type="PackedScene" uid="uid://cnlrdcdbsj4wx" path="res://art/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/Tree_2_A_Color1.fbx" id="17_oye8v"]
+[ext_resource type="PackedScene" uid="uid://c5848eaj82mci" path="res://art/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/Grass_2_C_Color1.fbx" id="18_40n85"]
+[ext_resource type="PackedScene" uid="uid://555h60cbqobq" path="res://art/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/Grass_1_B_Singlesided_Color1.fbx" id="19_gb15f"]
+[ext_resource type="PackedScene" uid="uid://dtrn8akdq4h7g" path="res://art/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/Grass_1_A_Singlesided_Color1.fbx" id="20_sph85"]
+[ext_resource type="PackedScene" uid="uid://bk3ksvf8d6ji5" path="res://art/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/Grass_1_B_Color1.fbx" id="21_gb15f"]
+[ext_resource type="PackedScene" uid="uid://eksgar1wkjv2" path="res://art/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/Tree_3_B_Color1.fbx" id="22_sph85"]
+[ext_resource type="PackedScene" uid="uid://4pds3jff3rwd" path="res://art/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/Tree_2_E_Color1.fbx" id="23_o7g6l"]
+[ext_resource type="PackedScene" uid="uid://b5vtvbe7t0n4p" path="res://art/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/Tree_2_D_Color1.fbx" id="24_vi5kq"]
+[ext_resource type="PackedScene" uid="uid://cdy4gn1be7yto" path="res://art/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/Tree_3_A_Color1.fbx" id="25_5mkgo"]
+[ext_resource type="PackedScene" uid="uid://wa4514wqlawj" path="res://art/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/Tree_4_A_Color1.fbx" id="26_3ccbu"]
+[ext_resource type="PackedScene" uid="uid://c3qlt6tk5nxp1" path="res://art/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/Grass_2_B_Color1.fbx" id="27_ny7u2"]
+[ext_resource type="PackedScene" uid="uid://bewo6kygsr7xg" path="res://art/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/Grass_2_A_Color1.fbx" id="28_x3yn0"]
+[ext_resource type="PackedScene" uid="uid://cthyisg0dh22k" path="res://art/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/Grass_1_SingleSided_Mesh.fbx" id="29_1w2xm"]
+[ext_resource type="PackedScene" uid="uid://dqtnddcqw7b6u" path="res://art/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/Grass_2_B_Singlesided_Color1.fbx" id="30_gngx1"]
+[ext_resource type="PackedScene" uid="uid://bdrrb0omnw2fl" path="res://art/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/Bush_4_F_Color1.fbx" id="31_jt61w"]
+[ext_resource type="PackedScene" uid="uid://7wbu6rib5n4o" path="res://art/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/Bush_4_E_Color1.fbx" id="32_v8qla"]
+[ext_resource type="PackedScene" uid="uid://cqc04qgyoqcm3" path="res://art/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/Tree_2_B_Color1.fbx" id="33_y1tbi"]
+[ext_resource type="PackedScene" uid="uid://cw8hars7fwpgr" path="res://art/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/Rock_3_L_Color1.fbx" id="34_vi5kq"]
+[ext_resource type="PackedScene" uid="uid://cx280n6fy17ie" path="res://art/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/Grass_1_A_Color1.fbx" id="35_5mkgo"]
+[ext_resource type="PackedScene" uid="uid://cecrq518gj6xj" path="res://art/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/Bush_4_D_Color1.fbx" id="36_3ccbu"]
+[ext_resource type="PackedScene" uid="uid://bjrdp1tso8fpx" path="res://art/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/Tree_Bare_1_B_Color1.fbx" id="37_ny7u2"]
+[ext_resource type="PackedScene" uid="uid://bqs6y58uhqo6m" path="res://art/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/Tree_1_C_Color1.fbx" id="38_x3yn0"]
+[ext_resource type="PackedScene" uid="uid://bovmdn483ekph" path="res://art/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/Tree_1_A_Color1.fbx" id="39_1w2xm"]
+[ext_resource type="PackedScene" uid="uid://d2233ai06ulx1" path="res://art/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/Rock_3_Q_Color1.fbx" id="40_x3yn0"]
 
 [sub_resource type="BoxShape3D" id="1"]
 size = Vector3(60, 2, 60)
@@ -128,6 +163,42 @@ mesh = SubResource("3")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 1, 16)
 mesh = SubResource("3")
 
+[node name="Bush_1_A_Color1" parent="Cylinders" instance=ExtResource("4_2gh4u")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.81613, 0.00293097, 9.42219)
+
+[node name="Bush_1_A_Color2" parent="Cylinders" instance=ExtResource("4_2gh4u")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.8892, 0.00293109, 8.53061)
+
+[node name="Bush_1_A_Color3" parent="Cylinders" instance=ExtResource("4_2gh4u")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.85341, 0.00293109, 8.14652)
+
+[node name="Bush_1_B_Color1" parent="Cylinders" instance=ExtResource("5_devvj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.8367, 0.0123561, 6.58097)
+
+[node name="Bush_1_B_Color2" parent="Cylinders" instance=ExtResource("5_devvj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.94424, 0.0123561, 8.39472)
+
+[node name="Bush_1_B_Color3" parent="Cylinders" instance=ExtResource("5_devvj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.07157, 0.0123561, 6.06642)
+
+[node name="Bush_3_C_Color1" parent="Cylinders" instance=ExtResource("6_3b0ty")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.2809, 0.0268095, 0.548866)
+
+[node name="Bush_2_F_Color1" parent="Cylinders" instance=ExtResource("7_bg4s2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.143777, 8.9303e-08, -0.583825)
+
+[node name="Grass_1_D_Color1" parent="Cylinders" instance=ExtResource("8_hhcpw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.1785, 0.0421703, 4.89721)
+
+[node name="Grass_1_C_Color1" parent="Cylinders" instance=ExtResource("9_mxvw5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.80544, 0.0370764, 5.2864)
+
+[node name="Grass_1_D_Singlesided_Color1" parent="Cylinders" instance=ExtResource("10_xrxkg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.02279, 0.0373574, 5.84144)
+
+[node name="Grass_1_D_Singlesided_Color2" parent="Cylinders" instance=ExtResource("10_xrxkg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3243, 0.0373574, -1.78873)
+
 [node name="SpawnPath" type="Path3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
 curve = SubResource("5")
@@ -162,6 +233,20 @@ theme_override_font_sizes/font_size = 32
 text = "Score: 0"
 script = ExtResource("6")
 
+[node name="Name" type="Label" parent="UserInterface"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -330.0
+offset_top = 68.0
+offset_right = -1.0
+offset_bottom = 109.0
+grow_horizontal = 0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 30
+text = "673380512-7 ณัฐกร รุ่งฟ้า"
+
 [node name="Retry" type="ColorRect" parent="UserInterface"]
 visible = false
 layout_mode = 0
@@ -184,6 +269,177 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_font_sizes/font_size = 32
 text = "Press Space or Enter to retry"
+
+[node name="Rock_1_A_Color1" parent="." instance=ExtResource("13_sqvbp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.1649, 3.62263e-08, 3.08182)
+
+[node name="Rock_1_A_Color2" parent="." instance=ExtResource("13_sqvbp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.1952, 0.00747085, -3.63268)
+
+[node name="Rock_1_A_Color3" parent="." instance=ExtResource("13_sqvbp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.79209, 3.62263e-08, -4.99127)
+
+[node name="Rock_1_B_Color1" parent="." instance=ExtResource("14_hri7i")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.40098, 3.65471e-08, -7.52911)
+
+[node name="Tree_1_B_Color1" parent="." instance=ExtResource("15_w3rk5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.00916, 0.341037, 3.91688)
+
+[node name="Tree_2_C_Color1" parent="." instance=ExtResource("16_5mvff")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.5976, 0.393247, -5.10221)
+
+[node name="Tree_2_A_Color1" parent="." instance=ExtResource("17_oye8v")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.60156, 0.373518, -6.32573)
+
+[node name="Grass_2_C_Color1" parent="." instance=ExtResource("18_40n85")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.92647, 0.0477392, -8.9924)
+
+[node name="Grass_1_B_Singlesided_Color1" parent="." instance=ExtResource("19_gb15f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.8595, 0.0465024, -3.61723)
+
+[node name="Grass_1_A_Singlesided_Color1" parent="." instance=ExtResource("20_sph85")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.73645, 0.02, -9.42465)
+
+[node name="Grass_1_B_Color1" parent="." instance=ExtResource("21_gb15f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.5599, 0.0562896, 13.6575)
+
+[node name="Tree_3_B_Color1" parent="." instance=ExtResource("22_sph85")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.74211, 0.341037, 15.0817)
+
+[node name="Tree_2_E_Color1" parent="." instance=ExtResource("23_o7g6l")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.1087, 0.436372, 14.9039)
+
+[node name="Tree_2_E_Color2" parent="." instance=ExtResource("23_o7g6l")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.1702, 0.436372, -13.9893)
+
+[node name="Tree_3_B_Color2" parent="." instance=ExtResource("22_sph85")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.0169, 0.341037, -14.889)
+
+[node name="Tree_2_D_Color1" parent="." instance=ExtResource("24_vi5kq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.5491, 0.969992, 10.8973)
+
+[node name="Tree_2_C_Color2" parent="." instance=ExtResource("16_5mvff")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.4876, 2.0176, 4.73556)
+
+[node name="Tree_2_D_Color2" parent="." instance=ExtResource("24_vi5kq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.4869, 0.393247, -1.35513)
+
+[node name="Tree_2_E_Color3" parent="." instance=ExtResource("23_o7g6l")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.21837, 0.436372, 15.5819)
+
+[node name="Tree_3_A_Color1" parent="." instance=ExtResource("25_5mkgo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.23874, 0.261318, 16.184)
+
+[node name="Tree_4_A_Color1" parent="." instance=ExtResource("26_3ccbu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.96376, 0.342125, 15.4843)
+
+[node name="Tree_4_A_Color2" parent="." instance=ExtResource("26_3ccbu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.48426, 0.342125, 15.6242)
+
+[node name="Grass_2_B_Color1" parent="." instance=ExtResource("27_ny7u2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.623, 0.0312668, 11.8622)
+
+[node name="Grass_2_A_Color1" parent="." instance=ExtResource("28_x3yn0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.52561, 0.0312668, 11.6091)
+
+[node name="Grass_2_C_Color2" parent="." instance=ExtResource("18_40n85")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.0733, 0.0477392, 9.62125)
+
+[node name="Grass_1_SingleSided_Mesh" parent="." instance=ExtResource("29_1w2xm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.6764, 0.02, 6.48825)
+
+[node name="Grass_2_B_Color2" parent="." instance=ExtResource("27_ny7u2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.03125, 0.0312668, 10.2247)
+
+[node name="Grass_2_B_Singlesided_Color1" parent="." instance=ExtResource("30_gngx1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.82797, 0.0312668, 11.6504)
+
+[node name="Bush_4_F_Color1" parent="." instance=ExtResource("31_jt61w")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.65663, 0.00641918, 9.51474)
+
+[node name="Bush_4_F_Color2" parent="." instance=ExtResource("31_jt61w")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.5379, 0.23914, 7.84051)
+
+[node name="Bush_4_E_Color1" parent="." instance=ExtResource("32_v8qla")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.51216, 0.0064192, 5.48434)
+
+[node name="Bush_4_E_Color2" parent="." instance=ExtResource("32_v8qla")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.33711, 0.0064192, -8.5401)
+
+[node name="Tree_2_B_Color1" parent="." instance=ExtResource("33_y1tbi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.27074, 0.344767, -14.8447)
+
+[node name="Tree_2_C_Color3" parent="." instance=ExtResource("16_5mvff")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.92148, 0.393247, -12.873)
+
+[node name="Tree_2_D_Color3" parent="." instance=ExtResource("24_vi5kq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.22319, 0.393247, -12.084)
+
+[node name="Tree_2_D_Color4" parent="." instance=ExtResource("24_vi5kq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.20591, 0.393247, -13.452)
+
+[node name="Tree_2_E_Color4" parent="." instance=ExtResource("23_o7g6l")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.2374, 0.436372, -13.7049)
+
+[node name="Tree_3_A_Color2" parent="." instance=ExtResource("25_5mkgo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.619, 0.261318, 2.09118)
+
+[node name="Tree_3_B_Color3" parent="." instance=ExtResource("22_sph85")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.2467, 0.341037, -1.75688)
+
+[node name="Tree_3_B_Color4" parent="." instance=ExtResource("22_sph85")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.4529, 0.341037, -9.80443)
+
+[node name="Rock_3_L_Color1" parent="." instance=ExtResource("34_vi5kq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.83865, 1.046, 3.02337)
+
+[node name="Grass_1_A_Color1" parent="." instance=ExtResource("35_5mkgo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.18846, 0.02, 2.26525)
+
+[node name="Bush_4_D_Color1" parent="." instance=ExtResource("36_3ccbu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.66188, 0.00316151, -3.66033)
+
+[node name="Bush_4_E_Color3" parent="." instance=ExtResource("32_v8qla")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.23249, 0.0064192, -0.587126)
+
+[node name="Grass_1_B_Color2" parent="." instance=ExtResource("21_gb15f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.30613, 0.0562896, 1.8164)
+
+[node name="Grass_1_B_Color3" parent="." instance=ExtResource("21_gb15f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.598799, 0.0562896, 2.71986)
+
+[node name="Grass_1_A_Color2" parent="." instance=ExtResource("35_5mkgo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.75971, 0.02, -4.86005)
+
+[node name="Grass_1_B_Color4" parent="." instance=ExtResource("21_gb15f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.58503, 0.0562896, -3.84333)
+
+[node name="Grass_1_A_Color3" parent="." instance=ExtResource("35_5mkgo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.89871, 0.02, -6.09738)
+
+[node name="Tree_4_A_Color3" parent="." instance=ExtResource("26_3ccbu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.866, 0.342125, -11.9406)
+
+[node name="Tree_Bare_1_B_Color1" parent="." instance=ExtResource("37_ny7u2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.31789, 0.341037, -10.6335)
+
+[node name="Tree_2_B_Color2" parent="." instance=ExtResource("33_y1tbi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.8769, 0.344767, -8.76118)
+
+[node name="Tree_1_C_Color1" parent="." instance=ExtResource("38_x3yn0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.0545, 0.429465, -6.10814)
+
+[node name="Tree_2_B_Color3" parent="." instance=ExtResource("33_y1tbi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.0646, 0.344767, 11.0031)
+
+[node name="Tree_1_C_Color2" parent="." instance=ExtResource("38_x3yn0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.0707, 0.39232, 7.83483)
+
+[node name="Tree_1_A_Color1" parent="." instance=ExtResource("39_1w2xm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.9691, 0.261318, 4.58087)
+
+[node name="Rock_3_Q_Color1" parent="." instance=ExtResource("40_x3yn0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.96895, 1.62448, -11.0477)
 
 [connection signal="hit" from="Player" to="." method="_on_player_hit"]
 [connection signal="timeout" from="MobTimer" to="." method="_on_mob_timer_timeout"]
